@@ -8,9 +8,9 @@ http://autoablehnen.flamefestival.de/
 
 Präambel
 
-Die neue Version von Liquid Feedback ist da. Alles ist toller, besser, schneller, neuer, bunter. Aber der hohe Rat der 27 Liquid-Weisen hat in der neuesten Ausgabe des Kaffeesatzes gelesen, und entschieden: Auto-Ablehnen ist unmoralisch und wider die Natur!
+Die neue Version von Liquid Feedback ist da. Alles ist toller, besser, schneller, neuer, bunter. Aber der hohe Rat der 27 Liquid-Weisen hat in der neuesten Ausgabe des Kaffeesatzes gelesen, und entschieden: Auto-Ablehnen ist unmoralisch und wider die Natur! (Oder genauer: Zu kompliziert für die Anwender [1])
 
-Könnte natürlich auch damit zu tun haben, dass viele Leute Auto-Ablehnen ganz legitim nutzen, weil sie der Meinung sind: Wer meine Stimme will, der muss sich auch um meine Aufmerksamkeit bemühen. Diese reservierte, ja gerade konservative Ansicht aber stört den geheiligten Ablauf der flüssigen Demokratie [1] und gehört daher verboten!
+Könnte natürlich auch damit zu tun haben, dass viele Leute Auto-Ablehnen ganz legitim nutzen, weil sie der Meinung sind: Wer meine Stimme will, der muss sich auch um meine Aufmerksamkeit bemühen. Diese reservierte, ja gerade konservative Ansicht aber stört den geheiligten Ablauf der flüssigen Demokratie [2] und gehört daher verboten!
 
 Doof nur, dass zwischenzeitlich jemand das Internet erfunden hat. Und in dem gibt es Hilfsmittel für so ziemlich alles. Und Leute, die sich von Herstellern ungerne vorschreiben lassen, wie ihre Hard-/Software zu nutzen ist. Und daher gibt es jetzt auch das erste, einzigartige After-Market-Mod-Pack für Liquid Feedback 2.0.
 
@@ -22,8 +22,9 @@ Na das, was draufsteht. Sobald Themen abstimmreif werden - über alle Themenberei
 
 Warum so kompliziert?
 
-Die offizielle Liquid-Feedback-API ist leider noch nicht einsatzfähig, weil die Entwickler irgendwie Authentifizierung als API-Bestandteil übersehen haben. [2]
-Selbst wenn die API aber voll einsatzbereit wäre, ist sie nicht zwangsläufig überall auch uneingeschränkt benutzbar. Besonderes Ziel dieser Software ist die Liquid Feedback Bundesinstanz der Piratenpartei Deutschland, und da wurde zumindest angedeutet dass ein voller API-Zugriff nicht automatisch angeboten werden wird. Datenschutz, wissenschon.
+Die offizielle Liquid-Feedback-API ist leider noch nicht einsatzfähig, sie ist immer noch als "WORKING DRAFT" gekennzeichnet.
+Insbesondere haben die Entwickler irgendwie Authentifizierung als relevanten API-Bestandteil übersehen. [3]
+Selbst wenn die API aber voll einsatzbereit wäre, ist sie nicht zwangsläufig überall auch uneingeschränkt benutzbar. Besonderes Ziel dieser Software ist die Liquid Feedback Bundesinstanz der Piratenpartei Deutschland, und da wurde zumindest angedeutet dass ein voller (nicht nur lesender) API-Zugriff nicht automatisch angeboten werden wird. Datenschutz, wissenschon.
 
 
 Was brauch ich dafür?
@@ -50,5 +51,6 @@ Warum nicht in TolleSpracheX?
 (Die Teile unter der BSD-Lizenz könnte man sicher schnell rausbauen, die sind eh nicht so wahnsinnig toll)
 
 
-[1] http://streetdogg.wordpress.com/2011/04/22/the-tale-of-liquid-feedback/#AutoAblehnen
-[2] http://dev.liquidfeedback.org/trac/lf/wiki/API#Applicationauthenticationandsessionmanagement
+[1] http://liquidfeedback.org/2012/06/30/liquidfeedback-2-0-released/
+[2] http://streetdogg.wordpress.com/2011/04/22/the-tale-of-liquid-feedback/#AutoAblehnen
+[3] http://dev.liquidfeedback.org/trac/lf/wiki/API#Applicationauthenticationandsessionmanagement
