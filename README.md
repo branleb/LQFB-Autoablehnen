@@ -46,8 +46,7 @@ Weil ich kein LUA kann, und Brainfuck keine regulären Ausdrücke hat. Und weil PH
 Warum nicht in TolleSpracheX?
 
 Übersetz es halt. Oder machs besser. Dafür steht das Ding unter der GPL.
-Die Teile von 
-
+(Die Teile unter der BSD-Lizenz könnte man sicher schnell rausbauen, die sind eh nicht so wahnsinnig toll)
 
 
 [1] http://streetdogg.wordpress.com/2011/04/22/the-tale-of-liquid-feedback/#AutoAblehnen
