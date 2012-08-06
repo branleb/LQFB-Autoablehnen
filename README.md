@@ -22,7 +22,8 @@ Na das, was draufsteht. Sobald Themen abstimmreif werden - über alle Themenberei
 
 Warum so kompliziert?
 
-Die offizielle Liquid-Feedback-API ist leider noch nicht einsatzfähig, weil die Entwickler irgendwie Authentifizierung als API-Bestandteil übersehen haben. Selbst wenn die API aber voll einsatzbereit wäre, ist sie nicht zwangsläufig überall auch uneingeschränkt benutzbar. Besonderes Ziel dieser Software ist die Liquid Feedback Bundesinstanz der Piratenpartei Deutschland, und da wurde zumindest angedeutet dass ein voller API-Zugriff nicht automatisch angeboten werden wird. Datenschutz, wissenschon.
+Die offizielle Liquid-Feedback-API ist leider noch nicht einsatzfähig, weil die Entwickler irgendwie Authentifizierung als API-Bestandteil übersehen haben. [2]
+Selbst wenn die API aber voll einsatzbereit wäre, ist sie nicht zwangsläufig überall auch uneingeschränkt benutzbar. Besonderes Ziel dieser Software ist die Liquid Feedback Bundesinstanz der Piratenpartei Deutschland, und da wurde zumindest angedeutet dass ein voller API-Zugriff nicht automatisch angeboten werden wird. Datenschutz, wissenschon.
 
 
 Was brauch ich dafür?
@@ -50,4 +51,4 @@ Warum nicht in TolleSpracheX?
 
 
 [1] http://streetdogg.wordpress.com/2011/04/22/the-tale-of-liquid-feedback/#AutoAblehnen
-
+[2] http://dev.liquidfeedback.org/trac/lf/wiki/API#Applicationauthenticationandsessionmanagement
