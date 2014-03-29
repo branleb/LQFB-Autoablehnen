@@ -1,4 +1,4 @@
-<?
+<?php
 
 ##############
 ##
@@ -70,8 +70,8 @@ function parse_loginpage($data) {
 function parse_logoutform($data) {
  $logoutpattern = '/<form(( [^>]*)? action="[^"]*logout"[^>]*)>(.*?)<\/form>/';
  preg_match($logoutpattern, $data, $matches);
- $formtag = $matches[1];
- $formcontent = $matches[3];
+ $formtag = array_key_exists(1, $matches) ? $matches[1] : null;
+ $formcontent = array_key_exists(3, $matches) ? $matches[3] : null;
 
  $result = parse_formtag($formtag);
 

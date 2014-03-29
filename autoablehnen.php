@@ -1,4 +1,4 @@
-<?
+<?php
 
 ###########################
 ##
@@ -117,6 +117,9 @@ foreach(array_keys($issuelist) as $issueid) {
 print "Abmelden...\n";
 
 $logouturl = url_to_absolute($lqfb, $logout['action']);
+if(isset($lasturl) === false) {
+	$lasturl = null;
+}
 $commencelogout = POSTURL($logouturl, $lasturl, $logout['post']); $lasturl = $logouturl;
 $logout = parse_logoutform($commencelogout);
 if ($logout['action'] != '' || $logout['method'] != '') {

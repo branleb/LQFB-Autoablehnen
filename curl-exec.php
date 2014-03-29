@@ -1,4 +1,4 @@
-<?
+<?php
 
 function clearCookies($cookiejar = 'cookies') {
  @unlink($cookiejar);
