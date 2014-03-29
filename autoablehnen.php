@@ -87,7 +87,7 @@ foreach(array_keys($issuelist) as $issueid) {
  $issue = $issuelist[$issueid];
 
  if ($issue['delegating'] == 1) {
-  print "Ueberspringe Thema $issueid: Themendelegation gesetzt\n\n";
+   print "Ueberspringe Thema http://pplf.de/t$issueid: Themendelegation gesetzt\n\n";
  } else {
   $baseurl = url_to_absolute($lqfb, substr($issue['url'], 0, strpos($issue['url'], '?')));
   $issueurl = $baseurl . substr($issue['url'], strpos($issue['url'], '?'));

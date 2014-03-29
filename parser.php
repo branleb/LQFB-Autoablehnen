@@ -184,18 +184,17 @@ function parse_voteform($data) {
    }
   }
 
-  if ($result['post']['discard'] == 'true') continue;
+  if (isset($result['post']['discard']) && $result['post']['discard'] == 'true') continue;
   if ($result['post']['scoring'] == '') continue;
 
-  $issuenamepattern = '/<div>(i[0-9]+: [^<]*)</';
+  $issuenamepattern = '/<div>(i[0-9]+)(: [^<]*)</';
   preg_match_all($issuenamepattern, $formcontent, $issues);
-  foreach($issues[1] as $issuename)
-   $result['issuenames'][] = utf8_decode($issuename);
-
+  foreach($issues[1] as $issuekey => $issuename)
+   $result['issuenames'][] = 'http://pplf.de/'.utf8_decode($issuename).' '.utf8_decode($issues[2][$issuekey]);
   return $result;
  }
 
  return array();
 }
 
-?>
+
